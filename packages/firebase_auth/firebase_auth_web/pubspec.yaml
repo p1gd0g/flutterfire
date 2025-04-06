@@ -1,7 +1,7 @@
-name: firebase_auth_web
+name: firebase_auth_web_proxy
 description: The web implementation of firebase_auth
-homepage: https://github.com/firebase/flutterfire/tree/main/packages/firebase_auth/firebase_auth_web
-repository: https://github.com/firebase/flutterfire/tree/main/packages/firebase_auth/firebase_auth_web
+homepage: https://github.com/p1gd0g/flutterfire/tree/main/packages/firebase_auth/firebase_auth_web
+repository: https://github.com/p1gd0g/flutterfire/tree/main/packages/firebase_auth/firebase_auth_web
 version: 5.14.2
 
 environment:

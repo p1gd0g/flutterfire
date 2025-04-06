@@ -7,8 +7,8 @@ import 'dart:async';
 import 'dart:js_interop';
 
 import 'package:firebase_auth_platform_interface/firebase_auth_platform_interface.dart';
-import 'package:firebase_auth_web/src/firebase_auth_web_multi_factor.dart';
-import 'package:firebase_auth_web/src/utils/web_utils.dart';
+import 'package:firebase_auth_web_proxy/src/firebase_auth_web_multi_factor.dart';
+import 'package:firebase_auth_web_proxy/src/utils/web_utils.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_core_web/firebase_core_web.dart';
 import 'package:firebase_core_web/firebase_core_web_interop.dart'

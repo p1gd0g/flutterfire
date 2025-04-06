@@ -4,7 +4,7 @@
 // found in the LICENSE file.
 
 import 'package:firebase_auth_platform_interface/firebase_auth_platform_interface.dart';
-import 'package:firebase_auth_web/src/firebase_auth_web_multi_factor.dart';
+import 'package:firebase_auth_web_proxy/src/firebase_auth_web_multi_factor.dart';
 
 import 'firebase_auth_web_user.dart';
 import 'interop/auth.dart' as auth_interop;

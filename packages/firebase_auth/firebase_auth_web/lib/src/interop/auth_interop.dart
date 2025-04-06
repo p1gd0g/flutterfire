@@ -11,7 +11,7 @@ library;
 
 import 'dart:js_interop';
 
-import 'package:firebase_auth_web/src/interop/auth.dart';
+import 'package:firebase_auth_web_proxy/src/interop/auth.dart';
 import 'package:firebase_core_web/firebase_core_web_interop.dart';
 
 @JS()
@@ -305,6 +305,19 @@ extension AuthJsImplExtension on AuthJsImpl {
     JSFunction? opt_completed,
   ]);
   external JSPromise signOut();
+  external Config get config;
+}
+
+@JS('Config')
+@staticInterop
+abstract class Config {}
+
+extension ConfigExtension on Config {
+  external JSString get apiHost;
+  external set apiHost(JSString s);
+
+  external JSString get tokenApiHost;
+  external set tokenApiHost(JSString s);
 }
 
 @anonymous
