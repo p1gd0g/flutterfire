@@ -7,7 +7,7 @@ import 'dart:io';
 import 'dart:js_interop';
 
 import 'package:firebase_auth_platform_interface/firebase_auth_platform_interface.dart';
-import 'package:firebase_auth_web_proxy/firebase_auth_web_proxy.dart';
+import 'package:firebase_auth_web_proxy/firebase_auth_web.dart';
 import 'package:firebase_auth_web_proxy/src/firebase_auth_web_multi_factor.dart';
 import 'package:firebase_core_web/firebase_core_web_interop.dart'
     as core_interop;
