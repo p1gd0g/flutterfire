@@ -359,10 +359,14 @@ class Auth extends JsObjectWrapper<auth_interop.AuthJsImpl> {
   }
 
   String get configApiHost => jsObject.config.apiHost.toDart;
-  String get configTokenHost => jsObject.config.tokenApiHost.toDart;
 
   set configApiHost(String s) {
     jsObject.config.apiHost = s.toJS;
+  }
+  
+  String get configTokenHost => jsObject.config.tokenApiHost.toDart;
+  set configTokenHost(String s) {
+    jsObject.config.tokenApiHost = s.toJS;
   }
 
   // set settings(auth_interop.AuthSettings s) {
