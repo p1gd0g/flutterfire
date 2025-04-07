@@ -29,4 +29,4 @@ flutter:
     platforms:
       web:
         pluginClass: FirebaseAuthWeb
-        fileName: firebase_auth_web.dart
+        fileName: firebase_auth_web_proxy.dart
