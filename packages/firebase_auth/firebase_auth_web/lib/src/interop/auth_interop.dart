@@ -11,7 +11,7 @@ library;
 
 import 'dart:js_interop';
 
-import 'package:firebase_auth_web_proxy/src/interop/auth.dart';
+import 'package:firebase_auth_web/src/interop/auth.dart';
 import 'package:firebase_core_web/firebase_core_web_interop.dart';
 
 @JS()

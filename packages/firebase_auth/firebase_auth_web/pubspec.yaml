@@ -1,8 +1,8 @@
-name: firebase_auth_web_proxy
+name: firebase_auth_web
 description: The web implementation of firebase_auth
 homepage: https://github.com/p1gd0g/flutterfire/tree/main/packages/firebase_auth/firebase_auth_web
 repository: https://github.com/p1gd0g/flutterfire/tree/main/packages/firebase_auth/firebase_auth_web
-version: 5.14.102+0
+version: 5.14.102+1
 
 environment:
   sdk: ">=3.4.0 <4.0.0"
