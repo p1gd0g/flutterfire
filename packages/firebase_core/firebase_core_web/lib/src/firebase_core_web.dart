@@ -190,7 +190,7 @@ class FirebaseCoreWeb extends FirebasePlatform {
         }
 
         return injectSrcScript(
-          'firebasejs/$version/firebase-${service.name}.js',
+          'https://www.gstatic.cn/firebasejs/$version/firebase-${service.name}.js',
           'firebase_${service.override ?? service.name}',
         );
       }),
@@ -249,7 +249,7 @@ class FirebaseCoreWeb extends FirebasePlatform {
 
             If you import the Firebase scripts in index.html, instead allow FlutterFire to manage this for you by removing
             any Firebase scripts in your web/index.html file:
-                e.g. remove: <script src="firebasejs/${firebase.SDK_VERSION}/firebase-app.js"></script>
+                e.g. remove: <script src="https://www.gstatic.cn/firebasejs/${firebase.SDK_VERSION}/firebase-app.js"></script>
           ''',
           );
         }

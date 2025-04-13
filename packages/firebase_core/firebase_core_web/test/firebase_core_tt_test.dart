@@ -22,7 +22,7 @@ void main() {
       final coreWeb = FirebaseCoreWeb();
       final version = coreWeb.firebaseSDKVersion;
       final Future<void> done = coreWeb.injectSrcScript(
-        'firebasejs/$version/firebase-app.js',
+        'https://www.gstatic.cn/firebasejs/$version/firebase-app.js',
         'firebase_core',
       );
 
