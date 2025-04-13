@@ -162,8 +162,8 @@ To get started, create a new file in the your `web` directory, and call it `fire
 ```js title=web/firebase-messaging-sw.js
 // Please see this file for the latest firebase-js-sdk version:
 // https://github.com/firebase/flutterfire/blob/main/packages/firebase_core/firebase_core_web/lib/src/firebase_sdk_version.dart
-importScripts("./firebasejs/10.7.0/firebase-app-compat.js");
-importScripts("./firebasejs/10.7.0/firebase-messaging-compat.js");
+importScripts("https://www.gstatic.cn/firebasejs/10.7.0/firebase-app-compat.js");
+importScripts("https://www.gstatic.cn/firebasejs/10.7.0/firebase-messaging-compat.js");
 
 firebase.initializeApp({
   apiKey: "...",
