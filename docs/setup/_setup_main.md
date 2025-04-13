@@ -281,8 +281,8 @@ By default, the Firebase Flutter SDK auto-injects the Firebase JavaScript SDK wh
 
       ```js
         window.addEventListener('load', async function (ev) {
-          window.firebase_firestore = await import("https://www.gstatic.cn/firebasejs/{{web_sdk_version}}/firebase-firestore.js");
-          window.firebase_analytics = await import("https://www.gstatic.cn/firebasejs/{{web_sdk_version}}/firebase-analytics.js");
+          window.firebase_firestore = await import("firebasejs/{{web_sdk_version}}/firebase-firestore.js");
+          window.firebase_analytics = await import("firebasejs/{{web_sdk_version}}/firebase-analytics.js");
           
           _flutter.loader.loadEntrypoint().then(function (engineInitializer) {
             // rest of the code
